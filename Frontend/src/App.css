@@ -1,0 +1,151 @@
+/* LOGIN */
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+/* TABLE SCROLLABLE */
+.scrollable {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/* GENERAL WRAPPER  */
+.wrapper {
+  max-width: 100% !important;
+  margin-top: 2rem;
+}
+
+
+.bg-custom {
+  background-color: #ececec;
+  border: 1px solid #b3b3b3;
+}
+
+.head-table {
+  background-color: #ececec;
+  position: sticky;
+  top: 0;
+  box-shadow: -1px 6px 9px -7px rgba(156, 156, 156, 0.69);
+}
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border: 0px none #b3b3b3;
+  border-radius: 44px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #9c9c9c;
+}
+::-webkit-scrollbar-track {
+  background: #ececec;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ececec;
+}
+::-webkit-scrollbar-track:active {
+  background: #ececec;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* CUSTOM INPUT */
+
+.custom-input { 
+  border-color:#d8d8d8; 
+  padding:3px; 
+  border-radius:8px; border-width:2px; 
+  border-style:solid; 
+  background-color:#f3f3f3;  
+  margin-left: 5px;
+}
+
+.custom-input:focus { 
+  outline:none; 
+  border-color:#bdbdbd; 
+} 
+
+
+.category {
+  background-color: #f5f6f7 !important;
+  border: solid 1px #000000 !important;
+  color: #161616 !important;
+}
+
+.category:hover{
+  background-color: #0077ff !important;
+  color: white !important;
+  border: solid 1px #0077ff !important;
+}
+
+.transfer-btn {
+  background-color: #f5f6f7 !important;
+  border: solid 1px #000000 !important;
+  color: #161616 !important;
+}
+
+.transfer-btn:hover {
+  background-color: #0077ff !important;
+  color: white !important;
+  border: solid 1px #0077ff !important;
+}
+
+.income {
+  color: #00b85c !important;
+}
+
+.expense {
+  color: #cc2900 !important;
+}
+
+Link {
+  display: block !important;
+}
